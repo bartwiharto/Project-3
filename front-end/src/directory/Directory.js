@@ -7,17 +7,17 @@ class Directory extends Component {
 		return (
 			<div className="directoryMenu">
 
-				<div id="songMenu" className="border border-danger">
+				<a href="#" id="songMenu" className="border border-color:white rounded">
 					Songs
-				</div>
+				</a>
 				
-				<div id="choreoMenu" className="border border-danger">
-					<h1>Choreographers</h1>
-				</div>
+				<a href="#" id="choreoMenu" className="border border-color:white rounded">
+					Choreo
+				</a>
 				
-				<div id="teamMenu" className="border border-danger">
-					<h1>Teams</h1>
-				</div>
+				<a href="#" id="teamMenu" className="border border-color:white rounded">
+					Teams
+				</a>
 
 			</div>
 		)

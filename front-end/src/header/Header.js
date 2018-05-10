@@ -6,13 +6,13 @@ class Header extends Component {
   render() {
     return (
             <nav className="navbar" id="header">
-                Project Board
+                Dancer Inspo Board
                 <div className="dropdown" id="menu">
                     <button type="button" className="btn dropdown-toggle" data-toggle="dropdown">
                     Menu <span className="caret"></span>
                     </button>
 
-                    <ul className="dropdown-menu dropdown-menu-right">
+                    <ul id="drop" className="dropdown-menu dropdown-menu-right">
                         <li>Home</li>
                         <li>Songs</li>
                         <li>Choreographers</li>

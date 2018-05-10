@@ -10,7 +10,8 @@
 }
 
 #menu {
-	margin-top: 5px;
+	margin-top: -40px; 
+	height: 120px;
 }
 
 button {
