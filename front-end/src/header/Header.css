@@ -1,10 +1,19 @@
-.Header {
+#header {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   letter-spacing: 3px;
   background-color: #222;
   height: 50px;
-  padding: 20px 50px 70px 16px;
+  padding: 35px 50px 35px 16px;
   color: white;
   opacity: 0.8;
+}
+
+#menu {
+	margin-top: 5px;
+}
+
+button {
+	background-color: black;
+	color: white;
 }

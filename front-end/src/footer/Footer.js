@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
 		<div className="footernav">
 			<nav className="navbar fixed-bottom">
-				<h5>Footer</h5>
+				<h5>This is the personal project board of</h5>
 			</nav>
 		</div>
     );

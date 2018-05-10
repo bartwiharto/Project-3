@@ -1,0 +1,25 @@
+.directoryMenu {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+#songMenu {
+	margin: 10%;
+	font-size: 120px;
+	background-image: url("./images/corey-blaz-5003-unsplash.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 80px;
+	color: white;
+}
+
+#choreoMenu {
+	margin: 10%;
+	padding: 5%;
+
+}
+
+#teamMenu {
+	margin: 10%;
+	padding: 5%;	
+}

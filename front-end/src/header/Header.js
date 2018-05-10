@@ -5,19 +5,21 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-		<div className="Header">
-			<nav class="navbar">
-				Project Board
-				<div className="dropdown">
-					<button type="button" className="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-					Menu <span className="caret"></span>
-					</button>
+            <nav className="navbar" id="header">
+                Project Board
+                <div className="dropdown" id="menu">
+                    <button type="button" className="btn dropdown-toggle" data-toggle="dropdown">
+                    Menu <span className="caret"></span>
+                    </button>
 
-					
-					
-				</div>
-			</nav>
-		</div>
+                    <ul className="dropdown-menu dropdown-menu-right">
+                        <li>Home</li>
+                        <li>Songs</li>
+                        <li>Choreographers</li>
+                        <li>Teams</li>
+                    </ul>                    
+                </div>
+            </nav>
     );
   }
 }
